@@ -1,0 +1,74 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  }
+  
